@@ -1,24 +1,28 @@
 # Aonius Cloud
 
-Приложение Aonius Cloud для облака: Talk, Почта, Файлы, Календарь в одном окне.
-The Aonius Cloud app for the cloud: Talk, Mail, Files, Calendar in one window.
+Talk, Почта, Файлы и Календарь облака в одном приложении. / Talk, Mail, Files and Calendar of the cloud in one app.
 
-Установщики — в разделе [Releases](https://github.com/Vinttri/Aonius-Cloud/releases/latest).
-Installers are under [Releases](https://github.com/Vinttri/Aonius-Cloud/releases/latest).
+## Установка / Install
 
-| Файл / File | Для чего / For |
-|---|---|
-| `Aonius Cloud … (Apple silicon).dmg` | Mac с процессором Apple (M1 и новее) / Macs with Apple chips |
-| `Aonius Cloud … (Intel).dmg` | Mac с процессором Intel / Intel Macs |
-| `Aonius-Cloud-Setup-…-x64.exe` | Windows 10/11, обычные компьютеры / most PCs |
-| `Aonius-Cloud-Setup-…-arm64.exe` | Windows 11 на ARM / Windows 11 on ARM |
-| `Aonius Cloud … (Android).apk` | Телефоны и планшеты Android / Android phones and tablets |
+| Система / System | Скачать / Download | Как поставить / How to install |
+|---|---|---|
+| **Mac, процессор Apple (M1 и новее)** | [Aonius Cloud 0.1.50 — Apple silicon (.dmg)](https://github.com/Vinttri/Aonius-Cloud/releases/download/v0.1.50/Aonius-Cloud-0.1.50-mac-arm64.dmg) | Откройте файл, перетащите Aonius Cloud в «Программы», запустите. / Open the file, drag Aonius Cloud to Applications, start it. |
+| **Mac, процессор Intel** | [Aonius Cloud 0.1.50 — Intel (.dmg)](https://github.com/Vinttri/Aonius-Cloud/releases/download/v0.1.50/Aonius-Cloud-0.1.50-mac-x64.dmg) | То же. Какой у вас процессор: меню Apple → «Об этом Mac». / The same. Your chip: Apple menu → About This Mac. |
+| **Windows 10/11** | [Aonius Cloud 0.1.50 — Windows x64 (.exe)](https://github.com/Vinttri/Aonius-Cloud/releases/download/v0.1.50/Aonius-Cloud-Setup-0.1.50-x64.exe) | Запустите файл. Если Windows предупреждает: «Подробнее» → «Выполнить в любом случае». / Run the file. If Windows warns: More info → Run anyway. |
+| **Windows 11 на ARM** | [Aonius Cloud 0.1.50 — Windows ARM64 (.exe)](https://github.com/Vinttri/Aonius-Cloud/releases/download/v0.1.50/Aonius-Cloud-Setup-0.1.50-arm64.exe) | То же. / The same. |
+| **Android** | [Aonius Cloud 0.1.49 — Android (.apk)](https://github.com/Vinttri/Aonius-Cloud/releases/download/v0.1.49/Aonius-Cloud-0.1.49-android.apk) | Откройте файл на телефоне и разрешите установку из этого источника. / Open the file on the phone and allow installing from this source. |
+| **iPhone, iPad** | [TestFlight: Aonius Cloud](https://testflight.apple.com/join/sKbYzYBa) | 1. Поставьте [TestFlight](https://apps.apple.com/app/testflight/id899247664) из App Store. 2. Откройте ссылку на iPhone → «Принять» → «Установить». Код не нужен. / 1. Install TestFlight from the App Store. 2. Open the link on the iPhone → Accept → Install. No code is needed. |
 
-Приложение обновляется само: «Настройки приложения» → «Обновления». Список обновлений
-(`updates.json`) подписан, и приложение ставит только файлы из подписанного списка с
-совпадающей контрольной суммой (sha256).
+## Первый запуск / First start
 
-The app updates itself: App Settings → Updates. The update list (`updates.json`) is signed,
-and the app installs only files from the signed list whose sha256 matches.
+1. Адрес облака / Cloud address: `cloud.animaccord.com`
+2. Войдите своим обычным логином и паролем на странице облака. / Sign in with your usual login and password on the cloud page.
+3. Разрешите уведомления, микрофон и камеру — они нужны для звонков. / Allow notifications, microphone and camera — calls need them.
 
-iPhone: через TestFlight / via TestFlight.
+## Обновления / Updates
+
+Приложение обновляется само: «Настройки приложения» → «Обновления». На iPhone обновляет TestFlight.
+The app updates itself: App Settings → Updates. On iPhone TestFlight updates it.
+
+Все версии и что в них нового — в [Releases](https://github.com/Vinttri/Aonius-Cloud/releases). Список обновлений (`updates.json`) подписан; приложение ставит только файлы из него с совпадающей контрольной суммой (sha256).
+All versions and what is new: [Releases](https://github.com/Vinttri/Aonius-Cloud/releases). The update list (`updates.json`) is signed; the app installs only files from it whose sha256 matches.
