@@ -6,8 +6,8 @@ Talk, Почта, Файлы и Календарь облака в одном п
 
 | Система / System | Скачать / Download | Как поставить / How to install |
 |---|---|---|
-| **Mac, процессор Apple (M1 и новее)** | [Aonius Cloud 0.1.63 — Apple silicon (.dmg)](https://github.com/Vinttri/Aonius-Cloud/releases/download/v0.1.63/Aonius-Cloud-0.1.63-mac-arm64.dmg) | Откройте файл, перетащите Aonius Cloud в «Программы», запустите. / Open the file, drag Aonius Cloud to Applications, start it. |
-| **Mac, процессор Intel** | [Aonius Cloud 0.1.63 — Intel (.dmg)](https://github.com/Vinttri/Aonius-Cloud/releases/download/v0.1.63/Aonius-Cloud-0.1.63-mac-x64.dmg) | То же. Какой у вас процессор: меню Apple → «Об этом Mac». / The same. Your chip: Apple menu → About This Mac. |
+| **Mac, процессор Apple (M1 и новее)** | [Aonius Cloud 0.1.71 — Apple silicon (.dmg)](https://github.com/Vinttri/Aonius-Cloud/releases/download/v0.1.71/Aonius-Cloud-0.1.71-mac-arm64.dmg) | Откройте файл, перетащите Aonius Cloud в «Программы», запустите. / Open the file, drag Aonius Cloud to Applications, start it. |
+| **Mac, процессор Intel** | [Aonius Cloud 0.1.71 — Intel (.dmg)](https://github.com/Vinttri/Aonius-Cloud/releases/download/v0.1.71/Aonius-Cloud-0.1.71-mac-x64.dmg) | То же. Какой у вас процессор: меню Apple → «Об этом Mac». / The same. Your chip: Apple menu → About This Mac. |
 | **Windows 10/11** | [Aonius Cloud 0.1.63 — Windows x64 (.exe)](https://github.com/Vinttri/Aonius-Cloud/releases/download/v0.1.63/Aonius-Cloud-Setup-0.1.63-x64.exe) | Запустите файл. Если Windows предупреждает: «Подробнее» → «Выполнить в любом случае». / Run the file. If Windows warns: More info → Run anyway. |
 | **Windows 11 на ARM** | [Aonius Cloud 0.1.63 — Windows ARM64 (.exe)](https://github.com/Vinttri/Aonius-Cloud/releases/download/v0.1.63/Aonius-Cloud-Setup-0.1.63-arm64.exe) | То же. / The same. |
 | **Android** | [Aonius Cloud 0.1.69 — Android (.apk)](https://github.com/Vinttri/Aonius-Cloud/releases/download/v0.1.69/Aonius-Cloud-0.1.69-android.apk) | Откройте файл на телефоне и разрешите установку из этого источника. / Open the file on the phone and allow installing from this source. |
